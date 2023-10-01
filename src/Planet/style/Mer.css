@@ -1,0 +1,14 @@
+.img{
+    background-image: url('http://1.bp.blogspot.com/-VkQRuSt8P2E/Trw_rRnHR_I/AAAAAAAACbA/QAf6iCo33dU/s1600/2011-10-28_global_view_MESSENGER.png');
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    animation: rot 4s infinite linear ;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #D3D3D3;
+}
+@keyframes rot{
+    to{
+        background-position: 100%;
+    }
+}

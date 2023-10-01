@@ -1,0 +1,15 @@
+.t{
+    width: 200px;
+    height: 200px;
+    background-image: url('http://www.ccvalg.pt/astronomia/sistema_solar/terra/mapa_terra.jpg');
+    background-size: cover;
+    box-shadow:  -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #0000CD;
+    border-radius: 50%;
+    animation: terra 1.4s infinite linear;
+    position: relative;
+}
+@keyframes terra{
+    to{
+        background-position: 100%;
+    }
+}

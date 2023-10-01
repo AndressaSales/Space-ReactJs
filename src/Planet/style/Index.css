@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;;
+}
+.borda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@import './Mer.css';
+@import './Nav.css';
+@import './Ve.css';
+@import './Ter.css';
+@import './Mart.css';
+@import './Jup.css';
+@import './Sar.css';
+@import './Ner.css';

@@ -1,0 +1,15 @@
+.netur{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.Q7S8dJ28a3Xk0AAM18CvEwHaDt&pid=Api&P=0&h=180');
+    background-size: cover;
+    box-shadow:  -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px rgb(91, 91, 239);
+    position: relative;
+    animation: net 6s infinite linear;
+}
+@keyframes net{
+    to{
+        background-position: 100%;
+    }
+}

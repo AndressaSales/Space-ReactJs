@@ -1,0 +1,15 @@
+.jupit{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('https://danielmarin.naukas.com/files/2015/10/hs-2015-37-b-xlarge_web.jpg');
+    background-size: cover;
+    position: relative;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px;
+    animation: ju 5s infinite linear;
+}
+@keyframes ju{
+    to{
+        background-position: 100%;
+    }
+}

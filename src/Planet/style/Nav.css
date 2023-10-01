@@ -1,0 +1,38 @@
+.navbar{
+    background:linear-gradient(orangered, #ccc);
+    padding: 3rem 4rem;
+    text-align: center;
+    letter-spacing: 3.4rem;
+    font-size: 1.5rem;
+    color: #F8F8FF;
+}
+#e:hover{
+    color: #C0C0C0;
+    text-shadow: 0 1px 30px #C0C0C0;
+}
+#s:hover{
+    color:#A0522D;
+    text-shadow: 0 1px 30px #A0522D;
+}
+#p:hover{
+    color: #E0FFFF;
+    text-shadow: 0 1px 30px #E0FFFF;
+}
+#a:hover{
+    color: #FF0000;
+    text-shadow: 0 1px 30px #FF0000;
+}
+#c:hover{
+    color: #D2691E;
+    text-shadow: 0 1px 30px #D2691E;
+}
+#o:hover{
+    color: #A020F0;
+    text-shadow: 0 1px 30px #A020F0;
+}
+@media only screen and (max-width: 768px){
+    #e,#s,#p,#a,#c,#o{
+        text-align: center;
+        letter-spacing: 1rem;
+    }
+}

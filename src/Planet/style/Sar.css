@@ -1,0 +1,15 @@
+.satur{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('http://bjj.mmedia.is/data/saturn/saturn.jpg');
+    background-size: cover;
+    position: relative;
+    box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px;
+    animation: sat 6s infinite linear;
+}
+@keyframes sat{
+    to{
+        background-position: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.mar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:  -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px orange;
+    position: relative;
+    background-image: url('https://1.bp.blogspot.com/-yfBGGSX9Tm4/XnQdJHm9tpI/AAAAAAAAUHs/SWKedIwu3R8Gr4jaCFZ-ZlGRinEM5b1ZACLcBGAsYHQ/s1600/2k_mars.jpg');
+    background-size: cover;
+    animation: mar 5s infinite linear;
+}
+@keyframes mar{
+    to{
+        background-position: 100%;
+    }
+}
